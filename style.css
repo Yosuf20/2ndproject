@@ -6,6 +6,7 @@
 }
 
 .header{
+    height: 900px;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/netflix.jpg);
     background-size: cover;
     background-position: center;
@@ -59,8 +60,9 @@
 /* Main content */
 
 
+
 .container{
-    height: 592px;
+    height: 800px;
     padding: 0px 32px 32px 32px;
     color: #FFFF;
     display: flex;
@@ -116,4 +118,63 @@
 .cont{
     margin-top: 20px;
     font-size: 1.1rem;
+}
+
+.blackbg{
+    height: ;
+    background-color: #000000;
+    padding: 0px 250px;
+}
+
+.section1{
+    border-top: 5px solid #E50914;
+    padding-top:60px ;
+    height: 350px;
+    font-size: 1.18rem;
+   
+}
+.headsec1{
+    color: white;
+    margin-bottom: 30px;
+
+    
+}
+.shows{
+    height: ;
+    display: flex;
+    justify-content: center;
+}
+.show1{
+    color: white;
+    font-size: 4rem;
+    height: 290px;
+    width: 225px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 44px;
+    border-radius: 12px;
+
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box{
+    color: white;
+    margin-right: 15px;
+    height: 316px;
+    width: 290px;
+    background-color: #1d172e;
+    border-radius: 12px;
+    padding: 24px 16px 0px 16px;
+}
+.section2{
+    color: white;
+    font-size: 1.18rem;
+}
+.section2 h2{
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
