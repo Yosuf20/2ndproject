@@ -164,11 +164,11 @@
 .box{
     color: white;
     margin-right: 15px;
-    height: 316px;
-    width: 290px;
+    height: 332px;
+    width: 287.52px;
     background-color: #1d172e;
     border-radius: 12px;
-    padding: 24px 16px 0px 16px;
+    padding: 40px 16px 0px 20px;
 }
 .section2{
     color: white;
@@ -176,5 +176,54 @@
 }
 .section2 h2{
     margin-top: 100px;
+    margin-left: 25px;
     margin-bottom: 30px;
+}
+
+.boxes h2{
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.boxes p{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.boxesp{
+    line-height: 1.5rem;
+}
+
+.section3{
+    background-color: inherit;
+    height: 500px;
+    width: 70%;
+}
+
+.shows h1 {
+    -webkit-text-stroke: 1.25px white;
+    color: black;
+}
+.No{
+    margin-top: 9.5rem;
+    margin-right: 0.5rem;
+}
+
+.show1:hover{
+    transform:scale(1.07);
+    transition: 0.3s ease-in;
+}
+
+.head{
+    height: 43px;
+    width: 1197px;
+    color: #ffffff;
+}
+
+.section3{
+    padding-left: 250px;
+    padding-right: 250px;
+    height: 1197px;
+    width: 800px;
 }
